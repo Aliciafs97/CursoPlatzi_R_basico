@@ -1,0 +1,15 @@
+---
+title: "Economia naranja"
+date: "2022-07-18"
+---
+
+```{r}
+orange <- read.csv("\Users\mante\Desktop\ALICIA\R\orange.csv")
+data(orange)
+summary(orange)
+```
+
+```{r}
+pairs(orange)
+```
+
